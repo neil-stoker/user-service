@@ -7,6 +7,7 @@ PROTO_NAME=user
 
 build: 
 	protoc -I. --go_out=plugins=micro:. proto/$(PROTO_NAME)/$(PROTO_NAME).proto
+	go build *.go
 
 
 
