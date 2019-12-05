@@ -9,4 +9,6 @@ Added Changed Removed headings
 
 ## [Unreleased]
 
+## 0.0.1 2019-12-05
+
 Initial project creation.
